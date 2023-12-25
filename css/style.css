@@ -26,6 +26,7 @@
     letter-spacing: 1px;
     cursor: pointer;
     margin: auto;
+    text-align: center;
 }
 span{
     color: #20b2aa;
@@ -53,6 +54,7 @@ nav ul li a:hover {
     padding: 10px 25px;
     border-radius: 30px;
     transition: transform .4s;
+    text-align: center;
    
 }
 .btn:hover{
@@ -179,7 +181,13 @@ button:hover{
     text-align: center;
     margin: auto;
 }
-.box{
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.box2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -313,9 +321,3 @@ footer p:nth-child(2){
 }
 
 
-@media screen and (max-width:768px) {
-    .about-text h2{
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
